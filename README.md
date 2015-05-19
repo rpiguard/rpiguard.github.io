@@ -27,7 +27,7 @@ Build a high grade security camera that's capable of:
 We're still in a proof of concept phase with lots of scripts and prototypes kicking around. We're gathering momentum and putting it all together to be released. Feel free to drop us an email if you want more info at smile@rpiguard.com
 
 # Authors and Contributors
-Xab, Don, Kelv, Spike
+xab, Don, Kelv, Spike
 
 # Support or Contact
 For anything hit us on [twitter](http://twitter.com/rpiguard) or drop us an email at smile@rpiguard.com
