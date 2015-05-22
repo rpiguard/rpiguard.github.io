@@ -16,7 +16,7 @@
     <div class="wrapper">
       <header>
         <h1>Raspberry Pi Guard</h1>
-        <p>A modern Pi based security camera system. If you&#39;re tired of blackbox solutions that at best upload snapshots on some proprietary cloud service this is for you: more features, fully open, cheaper, extensible.</p>
+        <p>A modern Pi based security camera system. If you&#39;re tired of blackbox solutions that at best upload snapshots to some proprietary cloud service this is for you: <strong>more features, fully open, cheaper, extensible.</strong></p>
 
 
         <p class="view"><a href="https://github.com/rpiguard">View My GitHub Profile</a></p>
@@ -26,15 +26,15 @@
         <h2>
 <a id="why" class="anchor" href="#why" aria-hidden="true"><span class="octicon octicon-link"></span></a>Why</h2>
 
-<p>If you need a security camera system today these are your options:</p>
+<p>If you need a security camera system today these are largely your options:</p>
 
 <ul>
 <li>pick from a flooded market of cheap stuff that will fail on you when you need it most</li>
-<li>a midrange class of cameras costing $150+ that will do a little more</li>
-<li>some really expensive stuff ($300+)</li>
+<li>a midrange class of cameras costing $150+ that will do a little more, but likely still disappoint you</li>
+<li>some really expensive stuff ($300+ a piece) that will actually work</li>
 </ul>
 
-<p>However even some of the more expensive models are still pretty dumb, doing at best some basic motion detection and uploading videos to proprietary cloud services. To add functionalities you will need additional proprietary control center devices and software (although zoneminder can be an option).</p>
+<p><strong>However even some of the more expensive models are still pretty dumb</strong>, doing at best some basic motion detection and uploading videos to proprietary cloud services. To add functionalities you will need additional proprietary control center devices and software (although zoneminder can be an option).</p>
 
 <p><strong>But the biggest problem still, you're locked in with a bunch of black boxes.</strong></p>
 
@@ -42,29 +42,39 @@
 <li>Want to turn on the light in the house when your porch camera detects motion? not possible.</li>
 <li>Want to get called on the phone if the front door is open? not possible.</li>
 <li>Want to get your videos straight to dropbox or gdrive right after the fact? not possible.</li>
-<li><strong>Want to add anything custom at all? not possible.</strong></li>
+<li><strong>Want to add anything custom or integrate with other services? not possible.</strong></li>
 </ul>
 
-<p>With the advent of the Raspberry Pi camera we thought it should be possible to build a better security camera. However it's not as easy as slapping the camera on the pi and installing something like Motion. That might work if you're trying to record the neighbor stealing your mail, but won't cut it for anything more serious.</p>
+<p><strong>With the advent of the Raspberry Pi camera we thought it should be possible to build a better security camera.</strong> However it's not as easy as slapping the camera on the pi and installing something like Motion. That might work if you're trying to record the neighbor stealing your mail, but won't cut it for anything more serious.</p>
 
 <h2>
 <a id="what--features" class="anchor" href="#what--features" aria-hidden="true"><span class="octicon octicon-link"></span></a>What / Features</h2>
 
-<p>Build a high grade security camera that's capable of:</p>
+<p>We aim to build a modular, high grade, security camera that's capable of:</p>
 
 <ul>
-<li>day and night vision (infrared)</li>
 <li>motion detection at 1080p 30fps</li>
-<li>additional PIR sensor for extra motion detection accuracy</li>
-<li>face detection</li>
 <li>record high quality videos of intrusions (1080p 30fps)</li>
+<li>face detection</li>
 <li>interface with whatever storage service (cloud or not) you might have for archival</li>
-<li>package an extra SSD card for reliable local large storage</li>
 <li>provide an api to interface the camera to other sensors and services</li>
 <li>integrate the camera with 3rd party services such as twilio to alert you via sms or phone call</li>
-<li>battery backed so that cutting power won't disable the camera</li>
+<li>wifi or ethernet connectivity</li>
 <li>pan/tilt/zoom support</li>
+<li>rtsp and mjpeg streaming</li>
+<li>a modern web interface and mobile apps</li>
+<li>day and night vision (infrared)</li>
+<li>SSD disk for reliable local large storage</li>
+<li>battery backed so that cutting power won't disable the camera</li>
 </ul>
+
+<p>The design is 100% modular, think lego, so you can come up with whatever configuration depending on your needs. This means you don't have to have the battery, the extra hd or wifi, but those options are available to you depending on the requirements of your installation.</p>
+
+<h2>
+<a id="kb" class="anchor" href="#kb" aria-hidden="true"><span class="octicon octicon-link"></span></a>Knowledge-base</h2>
+<p>No matter how good your cameras are, ultimately everything depends on how well you install them. This is where consulting firms often come in bringing in a wealth of knowledge, experience and expenses. Having consulted with professionals and done a lot of research we found however that a good deployment isn't too hard if you're willing to invest in understanding a few key concepts and experiment a bit.</p>
+
+<p>The knowledge base is a key part of our goal and provides you with everything you need to know about lenses, lights, angle of view, identification Vs recognition and other important aspects of a good installation.</p>
 
 <h2>
 <a id="who" class="anchor" href="#who" aria-hidden="true"><span class="octicon octicon-link"></span></a>Who</h2>
